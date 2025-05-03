@@ -15,17 +15,26 @@
     <section class="p-3">
         <h2>About Me</h2>
         <p>
-            Hello! I'm a passionate graphics programmer specializing in low-level graphics APIs and performance optimizations. I develop high-performance rendering solutions and graphics systems that push the boundaries of visual computing.
+            Hi, my name is Alexandre Brochu. I have been studying computer programming / computer science since high school and have been interested in game development for some time now. I currently work in game development full-time and on my own projects while seeking more experience in the programming domain.
         </p>
         <p>
-            My expertise includes Vulkan, DirectX, OpenGL, shader programming, and graphics optimization techniques. I'm constantly exploring new rendering algorithms and optimization strategies to create efficient and visually stunning graphics solutions.
+            Here's a small website for me to put up information about those projects so people can have an idea of what I am working on. Demos, screenshots and download links should be available for you to see or try the different games.
         </p>
     </section>
 
     <section class="mb-5 p-3 d-flex justify-content-center gap-3">
-        <button type="button" class="btn btn-outline-dark"><i class="bi bi-github"></i></button>
-        <button type="button" class="btn btn-outline-primary"><i class="bi bi-linkedin"></i></button>
-        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-envelope"></i></button>
+        <a target="_blank" href="{{ config.extra.github_url | safe }}" class="btn btn-outline-dark">
+            <i class="bi bi-github"></i>
+        </a>
+        <a target="_blank" href="{{ config.extra.linkedin_url | safe }}" class="btn btn-outline-primary">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a target="_blank" href="{{ get_url(path="files/ABResume-en.pdf") }}" class="btn btn-outline-secondary">
+            <i class="bi bi-file-person"></i>
+        </a>
+        <a href="mailto:{{ config.extra.email_addr | safe }}" class="btn btn-outline-secondary">
+            <i class="bi bi-envelope"></i>
+        </a>
     </section>
 
     <section class="mt-5 p-3 bg-light">

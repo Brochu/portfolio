@@ -14,3 +14,6 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+github_url = "https://github.com/Brochu"
+linkedin_url = "https://www.linkedin.com/in/alexandrebrochu/"
+email_addr = "alexbrochu1@gmail.com"
