@@ -1,9 +1,54 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-    This is my portfolio made with Zola.
-</h1>
+<section id="hero-section" class="hero section dark-backgorund">
 
-<p><a href="{{ get_url(path='@/projects/_index.md') }}">Posts</a>.</p>
+<div class="hero-container">
+    <img src="/imgs/jumbotron-bg-1.png">
+    <div class="hero-text">
+        <h1>Alexandre Brochu</h1>
+        <p>Graphics Programmer - Engineer</p>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <section class="p-3">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate graphics programmer specializing in low-level graphics APIs and performance optimizations. I develop high-performance rendering solutions and graphics systems that push the boundaries of visual computing.
+        </p>
+        <p>
+            My expertise includes Vulkan, DirectX, OpenGL, shader programming, and graphics optimization techniques. I'm constantly exploring new rendering algorithms and optimization strategies to create efficient and visually stunning graphics solutions.
+        </p>
+    </section>
+
+    <section class="mb-5 p-3 d-flex justify-content-center gap-3">
+        <button type="button" class="btn btn-outline-dark"><i class="bi bi-github"></i></button>
+        <button type="button" class="btn btn-outline-primary"><i class="bi bi-linkedin"></i></button>
+        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-envelope"></i></button>
+    </section>
+
+    <section class="mt-5 p-3 bg-light">
+        <h2>Projects</h2>
+        {% set project_section = get_section(path='projects/_index.md') %}
+
+        <div class="mt-3 row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            {% for page in project_section.pages %}
+            <div class="col">
+            <div class="card">
+                <img src="https://placehold.co/100x50"></img>
+                <div class="card-body">
+                    <h5 class="card-title">{{ page.title }}</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="{{ page.permalink | safe }}" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+
+</section>
 {% endblock content %}
