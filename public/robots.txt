@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://brochu.github.io/portfolio/sitemap.xml
