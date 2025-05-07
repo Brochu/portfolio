@@ -37,7 +37,7 @@
         </a>
     </section>
 
-    <section class="mt-5 p-3 bg-light">
+    <section class="mt-5 p-3 bg-white">
         <h2>Projects</h2>
         {% set project_section = get_section(path='projects/_index.md') %}
 
@@ -58,7 +58,7 @@
                     {% for tech in page.extra.stack %}
                         <span class="badge text-bg-dark">{{ tech }}</span>
                     {% endfor %}
-                    <p class="mt-3"><a href="{{ page.permalink | safe }}" class="btn btn-primary">Go somewhere</a></p>
+                    <p class="mt-3"><a href="{{ page.permalink | safe }}" class="btn btn-primary">Learn More</a></p>
                 </div>
             </div>
             </div>
