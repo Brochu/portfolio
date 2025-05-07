@@ -13,6 +13,9 @@ images = [
     "imgs/projs/DirectX12Renderer_3.png",
     "imgs/projs/DirectX12Renderer_4.png",
     "imgs/projs/DirectX12Renderer_5.png",
+    "imgs/projs/DirectX12Renderer_6.png",
+    "imgs/projs/DirectX12Renderer_7.png",
+    "imgs/projs/DirectX12Renderer_8.png",
 ]
 +++
 
