@@ -4,7 +4,7 @@ weight = 55
 description = "Ray tracer implementation that will run on the GPU to explore the DirectX 11 graphics API. Also a good experience writing HLSL shaders (Compute, Vertex, Fragment)"
 
 [extra]
-thumb = "imgs/projs/RayTraceDx11_1.png"
+thumb = "imgs/projs/RayTraceDx11_2.png"
 type = "Personal Project"
 stack = ["C++", "DirectX 11"]
 images = [

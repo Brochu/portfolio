@@ -4,7 +4,7 @@ weight = 68
 description = "I wanted to build a website where a group of friends can login and try to predict the outcome of American Football matches from the NFL."
 
 [extra]
-thumb = "imgs/projs/FootballPool_1.png"
+thumb = "imgs/projs/FootballPool_4.png"
 type = "Personal Project"
 stack = ["Ruby On Rails", "Web"]
 images = [

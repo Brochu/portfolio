@@ -4,7 +4,7 @@ weight = 35
 description = "Simple model viewer renderer using DirectX 12 that I implemented in order to get familiar with more modern rendering APIs used in game engines and to run simulations. My goals were to re-implement my simple DirectX 11 model viewer with a newer version of the API as well as adding some DirectX 12 specific features afterwards."
 
 [extra]
-thumb = "imgs/projs/DirectX12Renderer_1.png"
+thumb = "imgs/projs/DirectX12Renderer_8.png"
 type = "Personal Project"
 stack = ["C++", "DirectX 12", "CMake"]
 images = [

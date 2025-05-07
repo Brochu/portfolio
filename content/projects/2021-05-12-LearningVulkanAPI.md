@@ -4,7 +4,7 @@ weight = 43
 description = "Since I gained a lot of interest in graphics programming, I wanted to make an effort to learn the more recent graphics APIs. I chose to try my hand at Vulkan"
 
 [extra]
-thumb = "imgs/projs/LearningVulkan_1.png"
+thumb = "imgs/projs/LearningVulkan_10.png"
 type = "Personal Project"
 stack = ["C++", "Vulkan", "CMake"]
 images = [

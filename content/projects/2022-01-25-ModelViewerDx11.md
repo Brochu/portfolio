@@ -4,7 +4,7 @@ weight = 41
 description = "While reading papers on different rendering techniques over the course of my progress in graphics programming, I've found some that I would like to try and implement. This project is a very simple renderer to use as a base for these tests."
 
 [extra]
-thumb = "imgs/projs/Dx11ModelViewer_1.png"
+thumb = "imgs/projs/Dx11ModelViewer_5.png"
 type = "Personal Project"
 stack = ["C++", "DirectX 11", "CMake"]
 images = [

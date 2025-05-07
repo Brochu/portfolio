@@ -4,7 +4,7 @@ weight = 95
 description = "University project in the scope of the parallel programming class. Here we render fractal formulas with a parallel algorithm."
 
 [extra]
-thumb = "imgs/projs/FractalProject_1.png"
+thumb = "imgs/projs/FractalProject_5.png"
 type = "Sherbrooke University Project"
 stack = ["C#"]
 images = [

@@ -4,7 +4,7 @@ weight = 65
 description = "The video game verison of the board game known as Sequence. We wanted to make a network multiplayer game based on a game that already existed to complete the project faster"
 
 [extra]
-thumb = "imgs/projs/TwoOFive_1.png"
+thumb = "imgs/projs/TwoOFive_7.png"
 type = "Personal Project"
 stack = ["C#", "Unity3D"]
 images = [

@@ -4,7 +4,7 @@ weight = 91
 description = "Game project to re-create some gameplay features from an existing game. Implemented with the Unity3D engine."
 
 [extra]
-thumb = "imgs/projs/MkbClone_1.png"
+thumb = "imgs/projs/MkbClone_4.png"
 type = "Personal Project"
 stack = ["C#", "Unity3D"]
 images = [

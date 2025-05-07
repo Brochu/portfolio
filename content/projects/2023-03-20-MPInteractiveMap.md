@@ -4,7 +4,7 @@ weight = 25
 description = "A DirectX 12 application that will render an interactive map for Metroid Prime. The user can select an area of the game to show on screen and then move around the rooms."
 
 [extra]
-thumb = "imgs/projs/MPInteractiveMap_0.png"
+thumb = "imgs/projs/MPInteractiveMap_3.png"
 type = "Personal Project"
 stack = ["C++", "DirectX 12", "CMake"]
 images = [
