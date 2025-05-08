@@ -14,11 +14,15 @@
         <span class="badge text-bg-dark">{{ tech }}</span>
     {% endfor %}
 
-    <div class="container mt-5 p-4 bg-white">
+    <div class="card mt-5 p-4 shadow-sm">
         {{ page.content | safe }}
+    </div>
+
+    <div class="mt-5">
+        <h2>Project Gallery</h2>
 
         {% if page.extra.images %}
-        <div id="img-carousel" class="carousel slide">
+        <div id="img-carousel" class="carousel slide mt-4 pb-5">
             <div class="carousel-indicators">
                 {% for img in page.extra.images %}
                 {% if loop.first %}
